@@ -22,3 +22,5 @@ lapply(X = fili, FUN = function(x) {source(paste0(code_root_path,"R/", x), encod
 #functions
 logit <- qlogis
 inv_logit <- plogis
+
+theme_set(theme_bw())
